@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex nav bar</title>
+
+    <style>
+        main {
+            display: flex;
+            justify-content: start;
+            gap: 1%;
+            width: 50%;
+            outline: 2px dotted blue;
+            flex-direction: column;
+        }
+
+        main div {
+
+            outline: 1px solid blue;
+            /* width: 25%; */
+        }
+
+        .left {
+            outline: 1px solid red;
+            flex: 1 1 20%;
+
+        }
+
+        .right {
+            flex: 0 0  80%;
+            outline: 1px solid purple;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <main>
+
+        <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus pariatur itaque iste modi,
+            sequi harum incidunt esse? Fuga ea dolorum nesciunt eveniet.</div>
+        <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus pariatur itaque iste modi,
+            sequi harum incidunt esse? Fuga ea dolorum nesciunt eveniet.</div>
+
+
+
+    </main>
+
+
+
+</body>
+
+</html>

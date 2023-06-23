@@ -1,0 +1,49 @@
+body {
+    font-size: 14px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('img/ocean.jpg') ;
+    background-size: cover;
+}      
+#container {
+    margin: 0 auto;
+    width: 80%;
+}
+p {
+
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkgray;
+}
+header {
+    background-color: blue;
+
+}
+
+aside {
+    background-color: purple;
+    float: left;
+    width: 20%;
+   
+}
+section {
+    /* background-color: red; */
+   width: 80%;
+   float: right;
+}   
+footer {
+    background-color: yellow;
+    height: 100px;
+    clear: both;
+   
+}
+
+ article img {
+    width: 100%;
+    height: auto;
+    /* display: none; */
+    max-width: 300px;
+    opacity: 0.5;
+
+
+}
